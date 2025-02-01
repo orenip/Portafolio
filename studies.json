@@ -1,0 +1,48 @@
+[
+    {
+        "title": "Técnico Superior en Desarrollo de Aplicaciones Web",
+        "institution": "IES José Planes",
+        "year": "sept. 2023 - dic. 2024",
+        "grade": "8.15",
+        "skills": ["AJAX", "PHP", "JavaScript", "Apache", "Git", "API REST"]
+    },
+    {
+        "title": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+        "institution": "Universidad Alfonso X el Sabio",
+        "year": "sept. 2021 - jun. 2023",
+        "grade": "9.07",
+        "skills": ["Hibernate", "PhpMyAdmin", "CSS", "MongoDB", "Android", "MySQL", "Bootstrap", "HTML5", "Android Studio", "Java"]
+    },
+    {
+        "title": "Curso Aplicaciones de Oracle para Data Mining y Big Data",
+        "institution": "Cesur",
+        "year": "may. 2023 - jun. 2023",
+        "grade": "Aprobado",
+        "skills": ["Oracle SQL Developer", "SGBD", "ETL", "Oracle", "SQL", "Pentaho"]
+    },
+    {
+        "title": "Curso Metodologías Ágiles",
+        "institution": "Universidad Alfonso X el Sabio",
+        "year": "mar. 2023",
+        "grade": "Aprobado",
+        "skills": ["Scrum", "XP", "PwC", "Agile", "ITIL", "LEAN", "Kanban", "PRINCE2", "Metodologías ágiles", "PMP"]
+    },
+    {
+        "title": "Técnico Superior en Administración y Finanzas",
+        "institution": "CIFP Carlos III",
+        "year": "2014 - 2016",
+        "grade": "7.85"
+    },
+    {
+        "title": "Técnico en Gestión Administrativa",
+        "institution": "IES Cañada de las Eras",
+        "year": "2010 - 2012",
+        "grade": "8.38"
+    },
+    {
+        "title": "Educación Secundaria Obligatoria (ESO)",
+        "institution": "IES Vega del Tader",
+        "year": "2004 - 2008",
+        "grade": "6.27"
+    }
+]

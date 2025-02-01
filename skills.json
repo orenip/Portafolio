@@ -1,0 +1,20 @@
+[
+    { "name": "Java", "logo": "https://via.placeholder.com/50" },
+    { "name": "PHP", "logo": "https://via.placeholder.com/50" },
+    { "name": "MySQL", "logo": "https://via.placeholder.com/50" },
+    { "name": "MariaDB", "logo": "https://via.placeholder.com/50" },
+    { "name": "MongoDB", "logo": "https://via.placeholder.com/50" },
+    { "name": "HTML5", "logo": "https://via.placeholder.com/50" },
+    { "name": "CSS", "logo": "https://via.placeholder.com/50" },
+    { "name": "GIT", "logo": "https://via.placeholder.com/50" },
+    { "name": "C#", "logo": "https://via.placeholder.com/50" },
+    { "name": "Microsoft Azure", "logo": "https://via.placeholder.com/50" },
+    { "name": "SQL Server", "logo": "https://via.placeholder.com/50" },
+    { "name": "Entity Framework", "logo": "https://via.placeholder.com/50" },
+    { "name": "Docker", "logo": "https://via.placeholder.com/50" },
+    { "name": "Scrum", "logo": "https://via.placeholder.com/50" },
+    { "name": "Angular", "logo": "https://via.placeholder.com/50" },
+    { "name": "JavaScript", "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
+    { "name": "API REST", "logo": "https://via.placeholder.com/50" },
+    { "name": ".NET", "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" }
+]

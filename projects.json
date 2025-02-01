@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Gestor de Inventarios",
+        "description": "Aplicación web para gestionar inventarios en tiempo real.",
+        "link": "https://github.com/orenip/gestor-inventarios",
+        "image": "https://via.placeholder.com/300"
+    },
+    {
+        "title": "CRM para Empresas",
+        "description": "Sistema de gestión de clientes y ventas con integración de API.",
+        "link": "https://github.com/orenip/crm-empresas",
+        "image": "https://via.placeholder.com/300"
+    },
+    {
+        "title": "Plataforma de E-learning",
+        "description": "Plataforma educativa con cursos interactivos.",
+        "link": "https://github.com/orenip/plataforma-elearning",
+        "image": "https://via.placeholder.com/300"
+    }
+]
