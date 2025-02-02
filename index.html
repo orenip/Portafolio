@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio</title>
+    <title>Jose Antonio López Piñero</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-900">
     <div class="container mx-auto p-6">
         <header class="text-center my-6">
-            <h1 class="text-4xl font-bold">Jose Antonio López Piñero</h1>
+            <!-- Foto de perfil -->
+            <img src="img/foto.jpg" alt="Foto de perfil" class="w-32 h-32 rounded-full mx-auto">
+            
+            <!-- Descripción y nombre -->
+            <h1 class="text-4xl font-bold mt-4">Jose Antonio López Piñero</h1>
             <p class="text-lg text-gray-600">Software Developer Backend & Frontend</p>
-            <div class="flex justify-center space-x-4 mt-2">
+            <p class="text-md text-gray-500 mt-2">Soy un desarrollador apasionado por la informática y la tecnología, con un enfoque en la resolución de problemas complejos y la creación de soluciones innovadoras. Mi filosofía es que no existe desafío imposible, cada reto es una oportunidad para aprender y crecer. <br> Me motiva constantemente superar metas y adquirir nuevos conocimientos, lo que me impulsa a estar al día con las últimas tendencias tecnológicas y a perfeccionar mis habilidades en el desarrollo de software. Mi compromiso es ofrecer resultados de alta calidad y aportar valor a cada proyecto en el que participo.</p>
+            
+            <!-- Edad calculada dinámicamente -->
+            <p class="text-md text-gray-600 mt-2">Edad: <span id="age"></span></p>
+            
+            <!-- Enlaces a redes sociales -->
+            <div class="flex justify-center space-x-4 mt-4">
                 <a href="https://github.com/orenip" target="_blank" class="text-blue-500 flex items-center space-x-2">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="w-6 h-6">
                     <span>GitHub</span>
@@ -41,24 +51,85 @@
                 <!-- Las tecnologías se insertarán aquí con JS -->
             </div>
         </section>
-    </div>
+
+        <section id="certifications" class="my-6">
+            <h2 class="text-2xl font-bold text-center">Licencias y Certificaciones</h2>
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" id="certifications-container">
+                <!-- Las certificaciones se insertarán aquí con JS -->
+            </div>
+        </section>
+
+        <script>
+            // Cálculo de la edad basado en la fecha de nacimiento (4 de junio de 1992)
+            const birthDate = new Date(1992, 5, 4); // Mes en JS comienza desde 0 (junio es 5)
+            const currentDate = new Date();
+            let age = currentDate.getFullYear() - birthDate.getFullYear();
+            const monthDifference = currentDate.getMonth() - birthDate.getMonth();
+        
+            if (monthDifference < 0 || (monthDifference === 0 && currentDate.getDate() < birthDate.getDate())) {
+                age--; // Ajuste si aún no ha cumplido años este año
+            }
+        
+            // Actualizar el campo de edad dinámicamente
+            document.getElementById('age').textContent = age;
+        </script>
 
     <script>
         fetch('projects.json')
             .then(response => response.json())
             .then(projects => {
                 const container = document.getElementById('projects');
-                projects.forEach(proj => {
-                    const projectCard = `
-                        <div class='bg-white p-4 shadow-lg rounded-lg cursor-pointer transition-transform transform hover:scale-105' onclick='showProjectImage("${proj.image}")'>
-                            <h2 class='text-xl font-semibold'>${proj.title}</h2>
-                            <p class='text-gray-600'>${proj.description}</p>
-                            <a href='${proj.link}' class='text-blue-500 mt-2 block'>Ver proyecto</a>
+                projects.forEach((proj, index) => {
+                    const projectCard = document.createElement('div');
+                    projectCard.className = 'relative bg-white p-4 shadow-lg rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105';
+                    projectCard.setAttribute('data-index', index);
+                    projectCard.innerHTML = `
+                        <h2 class='text-xl font-semibold'>${proj.title} (${proj.year})</h2>
+                        <div id="details-${index}" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <p class='text-gray-600 mt-2'>${proj.description}</p>
+                            ${proj.link ? `<a href="${proj.link}" target="_blank" class="text-blue-500 mt-2 block">Ver proyecto</a>` : ''}
+                            ${proj.image ? `<img src="${proj.image}" alt="${proj.title}" class="mt-2 w-full rounded-lg shadow-md cursor-pointer" onclick="showLargeImage('${proj.image}')">` : ''}
                         </div>
                     `;
-                    container.innerHTML += projectCard;
+                    projectCard.onclick = () => toggleProjectDetails(index);
+                    container.appendChild(projectCard);
                 });
             });
+
+        function toggleProjectDetails(index) {
+            const allCards = document.querySelectorAll('#projects div[data-index]');
+            allCards.forEach(card => {
+                const cardIndex = card.getAttribute('data-index');
+                const details = document.getElementById(`details-${cardIndex}`);
+
+                if (cardIndex == index) {
+                    const isExpanded = details.classList.contains('max-h-0');
+                    details.classList.toggle('max-h-0', !isExpanded);
+                    details.classList.toggle('max-h-[500px]', isExpanded);
+                    card.classList.toggle('bg-blue-100', isExpanded);
+                    card.classList.toggle('scale-110', isExpanded);
+                    card.classList.toggle('shadow-2xl', isExpanded);
+                } else {
+                    details.classList.add('max-h-0');
+                    details.classList.remove('max-h-[500px]');
+                    card.classList.remove('bg-blue-100', 'scale-110', 'shadow-2xl');
+                }
+            });
+        }
+
+        function showLargeImage(imageUrl) {
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50';
+            modal.innerHTML = `
+                <div class="relative">
+                    <img src="${imageUrl}" class="max-w-3xl max-h-[80vh] rounded-lg shadow-lg">
+                    <button onclick="this.parentElement.parentElement.remove()" class="absolute top-2 right-2 bg-red-500 text-white p-2 rounded-full">&times;</button>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+
 
         fetch('studies.json')
             .then(response => response.json())
@@ -89,6 +160,23 @@
                     container.innerHTML += skillItem;
                 });
             });
+        
+        fetch('certifications.json')
+        .then(response => response.json())
+        .then(certifications => {
+            const container = document.getElementById('certifications-container');
+            certifications.forEach(cert => {
+                const certCard = document.createElement('div');
+                certCard.className = 'bg-white p-2 shadow-lg rounded-lg cursor-pointer transition-transform transform hover:scale-105';
+                certCard.innerHTML = `
+                    <h2 class='text-xl font-semibold'>${cert.title}</h2>
+                    <p class='text-gray-600'>${cert.institution} - ${cert.date}</p>
+                    ${cert.credential_id ? `<p class='text-sm text-gray-500'>ID: ${cert.credential_id}</p>` : ""}
+                `;
+                container.appendChild(certCard);
+            });
+            gsap.from('#certifications-container div', { opacity: 0, y: 50, stagger: 0.2 });
+        });
 
         function showProjectImage(imageUrl) {
             if (imageUrl) {

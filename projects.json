@@ -1,20 +1,76 @@
 [
     {
-        "title": "Gestor de Inventarios",
-        "description": "Aplicación web para gestionar inventarios en tiempo real.",
-        "link": "https://github.com/orenip/gestor-inventarios",
-        "image": "https://via.placeholder.com/300"
+        "title": "Proxy Inverso",
+        "description": "Desarrollo de un proxy inverso para mejorar la seguridad de la empresa. Esta solución permite una configuración sencilla y la implementación de múltiples archivos de configuración. Además, incluye una página de mantenimiento que se activa durante actualizaciones del servidor. La implementación se realizó con Nginx y se desplegó en un servidor Linux utilizando Docker.",
+        "year": "2025-Enero"
     },
     {
-        "title": "CRM para Empresas",
-        "description": "Sistema de gestión de clientes y ventas con integración de API.",
-        "link": "https://github.com/orenip/crm-empresas",
-        "image": "https://via.placeholder.com/300"
+        "title": "Gestor de Cursos",
+        "description": "Desarrollo de una aplicación web para la gestión de cursos en un centro de estudios. Permite la carga de documentos en una base de datos MariaDB y la exportación de datos en formato Excel. En este proyecto, me enfoqué principalmente en el backend y la seguridad. Se utilizó C# para la creación de la API y JWT para el control de acceso y permisos mediante tokens. La implementación de un proxy inverso con Nginx y el despliegue en un servidor Linux con Docker también fueron parte del proyecto.",
+        "year": "2024-Noviembre"
     },
     {
-        "title": "Plataforma de E-learning",
-        "description": "Plataforma educativa con cursos interactivos.",
-        "link": "https://github.com/orenip/plataforma-elearning",
-        "image": "https://via.placeholder.com/300"
+        "title": "Gestor de Tickets",
+        "description": "Aplicación web para la gestión de tickets, diseñada para optimizar el seguimiento de tareas y reducir el uso de correos electrónicos. En este proyecto, fui responsable del backend, utilizando C# y Entity Framework para crear una API robusta, con validaciones y control de errores. También se implementó un sistema de logs para notificar posibles fallos y una API adicional para enviar notificaciones por correo electrónico a los usuarios. El despliegue se realizó con Docker.",
+        "year": "2024-Octubre"
+    },
+    {
+        "title": "Gestor de Usuarios",
+        "description": "Aplicación web destinada a la gestión de usuarios, permitiendo controlar períodos de actividad, relaciones familiares, diferentes métodos de autenticación, y la asignación o revocación de permisos y perfiles para empleados. Trabajé principalmente en el backend, diseñando una API robusta con validaciones y control de errores, así como en la implementación de un sistema de logs. Se utilizaron JWT para la autenticación y seguridad, y se emplearon C# y Entity Framework en el backend, mientras que Laravel y JavaScript fueron utilizados en el frontend. El proyecto se desplegó en Docker.",
+        "year": "2024"
+    },
+    {
+        "title": "Aplicación Básica en Python",
+        "description": "Desarrollo de una aplicación sencilla para generar estadísticas a partir de archivos CSV.",
+        "year": "2024-Noviembre",
+        "link": "https://github.com/orenip/ALINEACION-MZ-HOCKEY"
+    },
+    {
+        "title": "CRUD con Symfony",
+        "description": "Proyecto de iniciación usando el framework Symfony para crear un CRUD en PHP.",
+        "year": "2024-Junio",
+        "link": "https://github.com/orenip/CRUD-Symfony"
+    },
+    {
+        "title": "API de una Tienda con C#",
+        "description": "Creación de una API para una tienda utilizando C# y Entity Framework.",
+        "year": "2023-Agosto",
+        "link": "https://github.com/orenip/API-Tienda-Entity"
+    },
+    {
+        "title": "API Propia con Entity Framework",
+        "description": "Mi primer proyecto desarrollando una API propia con Entity Framework, con conexión a bases de datos como SQL Server y MySQL.",
+        "year": "2023-Agosto",
+        "link": "https://github.com/orenip/API-Entity-SQLServer"
+    },
+    {
+        "title": "Gestor de Albaranes",
+        "description": "Aplicación multiplataforma para la gestión de albaranes, disponible tanto en versión web como móvil. El backend fue desarrollado con Laravel y el frontend con Angular. Se utilizó Ionic para adaptar la aplicación a dispositivos móviles Android e iOS. La aplicación permite la gestión de albaranes, clientes, productos y usuarios, y la generación de informes. Además, integra la API de Google para obtener la localización y permite la subida de documentos y firmas digitales.",
+        "year": "2023-Mayo"
+    },
+    {
+        "title": "Proyecto con Laravel",
+        "description": "Proyecto introductorio al framework Laravel.",
+        "year": "2023-Abril",
+        "link": "https://github.com/orenip/Laravel-Inicio-Frontend"
+    },
+    {
+        "title": "Proyecto de Prácticas en Angular",
+        "description": "Desarrollo de un proyecto utilizando Angular.",
+        "year": "2023-Abril",
+        "link": "https://github.com/orenip/Angular-ProyectoFinal"
+    },
+    {
+        "title": "Aplicación Móvil Mini-Trompy",
+        "description": "Aplicación móvil desarrollada para el proyecto de fin de grado, diseñada para ayudar a los padres a elegir el nombre de su bebé de manera divertida. La app genera aleatoriamente nombres basados en el sexo del bebé o permite introducir nombres favoritos para que la aplicación seleccione uno. La aplicación también permite guardar nombres en una base de datos. Está disponible en Play Store. Utiliza Java y Firebase para la base de datos en línea.",
+        "year": "2023-Marzo",
+        "image": "img/minitrompy.jpg",
+        "link": "https://play.google.com/store/apps/details?id=com.proyecto.mini_trompy&hl=es_419&pli=1"
+    },
+    {
+        "title": "Proyecto FTP",
+        "description": "Desarrollo de un proyecto tipo Filezilla con servidor y cliente FTP para la transferencia de datos.",
+        "year": "2023-Enero",
+        "link": "https://github.com/orenip/FTP"
     }
 ]

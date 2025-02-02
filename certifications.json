@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Ciberseguridad",
+        "institution": "Grupo Euroformac",
+        "date": "Abr. 2024",
+        "credential_id": "PL-2023-53/10",
+        "skills": ["Ciberseguridad"]
+    },
+    {
+        "title": "C# Inicial",
+        "institution": "OpenBootcamp",
+        "date": "Jun. 2023"
+    },
+    {
+        "title": "Remote Work Professional Certification - RWPC",
+        "institution": "CertiProf",
+        "date": "Mar. 2023",
+        "credential_id": "84092893"
+    },
+    {
+        "title": "Scrum Foundation Professional Certificate SFPC",
+        "institution": "CertiProf",
+        "date": "Mar. 2023",
+        "credential_id": "84064070"
+    },
+    {
+        "title": "Introducción a la Inteligencia Artificial y los Algoritmos",
+        "institution": "MOBA SKILL TRAINING, S.L",
+        "date": "Jul. 2022",
+        "skills": ["Inteligencia artificial"]
+    },
+    {
+        "title": "Desarrollo de Aplicaciones con Java",
+        "institution": "CiP Formación - Centro de Iniciativas Profesionales",
+        "date": "Jul. 2021"
+    },
+    {
+        "title": "Personal de Oficinas Metal",
+        "institution": "Degrenne Formacion",
+        "date": "Oct. 2020"
+    },
+    {
+        "title": "Personal de Oficina",
+        "institution": "Prevae Servicio de Prevención de Riesgos Laborales",
+        "date": "Feb. 2018"
+    },
+    {
+        "title": "Excel Avanzado",
+        "institution": "Centro de Formación San Nicolás",
+        "date": "Nov. 2017"
+    },
+    {
+        "title": "Primeros Auxilios y Socorrismo",
+        "institution": "Prevae Servicio de Prevención de Riesgos Laborales",
+        "date": "Nov. 2016"
+    }
+]
