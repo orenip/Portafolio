@@ -30,9 +30,13 @@
     { "name": "PhpMyAdmin", "logo": "img/PhpMyAdmin.png" },
     { "name": "Nginx", "logo": "img/nginx.webp" },
     { "name": "Firebase", "logo": "img/FB.png" },
+    { "name": "Symfony", "logo": "img/symfony.webp" },
+    { "name": "Python", "logo": "img/Python.webp" },
+    { "name": "Postman", "logo": "img/postman.webp" },
     { "name": "Apache", "logo": "img/apache.png" },
     { "name": "ASP.NET", "logo": "img/asp.jpg" },
+    { "name": "Moodle", "logo":"img/Moodle.png"},
     { "name": "XAMPP", "logo": "img/xampp.png" },
-    { "name": "OpenSSL", "logo": "img/OSSL.png" },
+    { "name": "OpenSSL", "logo": "img/ossl.png" },
     { "name": "JWT", "logo": "img/jwt.svg" }
 ]
