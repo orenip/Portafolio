@@ -1,5 +1,17 @@
 [
     {
+        "title": "Aplicación Facturas Automáticas",
+        "description": "Desarrollo de una aplicación para la generación automática de facturas a partir de un archivo JSON. La aplicación permite la carga de datos, la generación de facturas en formato PDF. Se realiza el envió de las facturas por correo electrónico y se almacenan en una carpeta del propio programa. También se incluye un scraper para que 2 veces al mes actualice la vigencia de ejecución de la tarea que ejecuta la realización y envio de la factura mediante PDF. La aplicación se desarrolló en Python y se desplegó en un servidor gratuito de pythonanywhere.",
+        "year": "2025-Marzo",
+        "link": "https://github.com/orenip/IAP_Facturas"
+    },
+    {
+        "title": "Aplicación Scraper",
+        "description": "Desarrollo de una aplicación para la extracción de datos de una página web. La aplicación permite la carga de una URL, la selección de los datos a extraer y la exportación de los datos en formato JSON. En este se scrapea la página del Mercadona donde recorremos y extraemos todos los productos de cualquier categoría. La aplicación se desarrolló en Python.",
+        "year": "2025-Febrero",
+        "link": "https://github.com/orenip/IAP_Scraper"
+    },
+    {
         "title": "Proxy Inverso",
         "description": "Desarrollo de un proxy inverso para mejorar la seguridad de la empresa. Esta solución permite una configuración sencilla y la implementación de múltiples archivos de configuración. Además, incluye una página de mantenimiento que se activa durante actualizaciones del servidor. La implementación se realizó con Nginx y se desplegó en un servidor Linux utilizando Docker.",
         "year": "2025-Enero"
@@ -23,7 +35,7 @@
         "title": "Aplicación Básica en Python",
         "description": "Desarrollo de una aplicación sencilla para generar estadísticas a partir de archivos CSV.",
         "year": "2024-Noviembre",
-        "link": "https://github.com/orenip/ALINEACION-MZ-HOCKEY"
+        "link": "https://github.com/orenip/IAP_TacticaMZHockey"
     },
     {
         "title": "CRUD con Symfony",
