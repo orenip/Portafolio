@@ -1,5 +1,11 @@
 [
     {
+        "title": "Aplicación de Automatización de Procesos",
+        "description": "El desarrollo de una aplicación en Python ejecutable mediante un archivo .exe en Windows consiste en la creación de una herramienta automatizada que, cada 4 horas, interactúa con una página web de manera autónoma. Esta aplicación tiene la capacidad de iniciar sesión en el portal de la web, realizar una serie de clics y ejecutar diferentes acciones predefinidas dentro de un proceso establecido, todo esto en intervalos regulares de 4 horas. El objetivo de la aplicación es facilitar y automatizar tareas repetitivas en la web, optimizando el tiempo y esfuerzo del usuario.",
+        "year": "Marzo 2025",
+        "link": "https://github.com/orenip/IAP_ScraperMZ"
+    },
+    {
         "title": "Aplicación de Facturación Automática",
         "description": "Desarrollo de una aplicación en Python para la generación automatizada de facturas a partir de archivos JSON. La aplicación permite la carga de datos, genera facturas en formato PDF, las envía por correo electrónico y guarda los documentos en una carpeta interna. Además, integra un scraper que actualiza, dos veces al mes, la vigencia de la tarea encargada de la creación y envío de las facturas. El sistema ha sido desplegado en la plataforma gratuita PythonAnywhere.",
         "year": "Marzo 2025",
