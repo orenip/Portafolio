@@ -1,4 +1,24 @@
 [
+      {
+        "title": "Migración de Aplicaciones a .NET 8",
+        "description": "Proyecto de migración de aplicaciones desde .NET Framework y .NET 6 a .NET 8, con actualización de procedimientos almacenados, modernización de APIs utilizando Entity Framework y mejoras de seguridad para una nueva puesta en marcha estable y actualizada.",
+        "year": "Junio 2025"
+    },
+    {
+        "title": "Aplicación de Envío de Correos Masivos Personalizados",
+        "description": "Desarrollo de una aplicación en Python para el envío masivo de correos electrónicos personalizados. La herramienta permite configurar mensajes en HTML, adjuntar archivos y enviar a múltiples destinatarios mediante servidores de Google, utilizando una plantilla Excel con los datos del destinatario para personalizar cada mensaje.",
+        "year": "Junio 2025"
+    },
+    {
+        "title": "Plataforma LMS con Moodle",
+        "description": "Desarrollo de una plataforma LMS utilizando Moodle para la gestión de cursos de formación, integrando funcionalidades como chatbot, pasarela de pagos mediante Stripe y otros requisitos específicos del cliente. El objetivo fue crear una solución formativa completa, adaptable y automatizada.",
+        "year": "Mayo 2025"
+    },
+    {
+        "title": "Programa de Tarificaciones Automatizadas",
+        "description": "Aplicación desarrollada en C# con API REST en .NET 6 para automatizar la gestión de tarifas, evitando la carga manual. Incluye procesos de verificación e integración con otros sistemas ya existentes, optimizando tiempos y reduciendo errores en la gestión comercial.",
+        "year": "Abril 2025"
+    },
     {
         "title": "Aplicación de Automatización de Procesos",
         "description": "El desarrollo de una aplicación en Python ejecutable mediante un archivo .exe en Windows consiste en la creación de una herramienta automatizada que, cada 4 horas, interactúa con una página web de manera autónoma. Esta aplicación tiene la capacidad de iniciar sesión en el portal de la web, realizar una serie de clics y ejecutar diferentes acciones predefinidas dentro de un proceso establecido, todo esto en intervalos regulares de 4 horas. El objetivo de la aplicación es facilitar y automatizar tareas repetitivas en la web, optimizando el tiempo y esfuerzo del usuario.",
