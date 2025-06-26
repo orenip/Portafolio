@@ -1,5 +1,5 @@
 [
-      {
+    {
         "title": "Migración de Aplicaciones a .NET 8",
         "description": "Proyecto de migración de aplicaciones desde .NET Framework y .NET 6 a .NET 8, con actualización de procedimientos almacenados, modernización de APIs utilizando Entity Framework y mejoras de seguridad para una nueva puesta en marcha estable y actualizada.",
         "year": "Junio 2025"
@@ -8,6 +8,12 @@
         "title": "Aplicación de Envío de Correos Masivos Personalizados",
         "description": "Desarrollo de una aplicación en Python para el envío masivo de correos electrónicos personalizados. La herramienta permite configurar mensajes en HTML, adjuntar archivos y enviar a múltiples destinatarios mediante servidores de Google, utilizando una plantilla Excel con los datos del destinatario para personalizar cada mensaje.",
         "year": "Junio 2025"
+    },
+    {
+    "title": "Servidor DDNS con BIND9 en Ubuntu 24.04",
+    "description": "Implementación de un servidor DDNS utilizando BIND9 sobre Ubuntu 24.04, configurado como DNS secundario dentro de la red de integración de la empresa. Se gestionaron archivos de zona directa y reversa, integrándose con un proxy existente para asegurar la resolución dinámica de nombres y optimizar la infraestructura interna.",
+    "year": "Mayo 2025",
+    "link": ""
     },
     {
         "title": "Plataforma LMS con Moodle",
